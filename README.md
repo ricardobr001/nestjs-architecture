@@ -1,6 +1,6 @@
 ## Descrição
 
-Nesta etapa, iremos criar nosso primeiro teste automatizado, ele será responsável por garantir que a camada de aplicação sempre siga uma determinada lógica.
+Nesta etapa, iremos adicionar o swagger para ajudar a documentar a nossa API.
 
 ## Instalação
 
