@@ -38,8 +38,8 @@ Para testar, tente chamar a rota `/v1/song` passando dois query params `artist` 
 
 ## Próximo passo
 
-Iremos adicionar o teste automatizado no nosso `SongService` para continuar troque a branch do projeto para a `03-adding-tests` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/03-adding-tests).
+Iremos adicionar a documentação na nossa API com o auxílio do swagger, para continuar troque a branch do projeto para a `04-adding-swagger` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/04-adding-swagger).
 
 ```bash
-$ git checkout 03-adding-tests
+$ git checkout 04-adding-swagger
 ```
