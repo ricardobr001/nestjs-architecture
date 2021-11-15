@@ -1,6 +1,6 @@
 ## Descrição
 
-Abordagem com uma arquitetura mais robusta juntamente com o [NestJS](https://github.com/nestjs/nest).
+Agora iremos começar a separar as responsabilidades de cada parte do projeto em pastas específicas.
 
 ## Instalação
 
