@@ -26,8 +26,8 @@ Para testar, tente chamar essa rota pelo insomnia, postman ou o próprio browser
 
 ## Próximo passo
 
-Iremos fazer uma **refatoração** inicial na estrutura do projeto, para continuar troque a branch do projeto para a `01-first-refactor` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/01-first-refactor).
+Iremos adicionar as lógicas necessárias para recuperar a letra de uma música do repositório de músicas [Vagalume](https://www.vagalume.com.br/), para continuar troque a branch do projeto para a `02-creating-the-song-controller` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/02-creating-the-song-controller).
 
 ```bash
-$ git checkout 01-first-refactor
+$ git checkout 02-creating-the-song-controller
 ```
