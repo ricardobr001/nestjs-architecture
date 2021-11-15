@@ -20,8 +20,16 @@
     "paths": {
       "@application": ["src/application"],
       "@application/*": ["src/application/*"],
+      "@core": ["src/core"],
+      "@core/*": ["src/core/*"],
       "@controller": ["src/http/controller"],
-      "@controller/*": ["src/http/controller/*"]
+      "@controller/*": ["src/http/controller/*"],
+      "@domain": ["src/domain"],
+      "@domain/*": ["src/domain/*"],
+      "@infrastructure": ["src/infrastructure"],
+      "@infrastructure/*": ["src/infrastructure/*"],
+      "@response": ["src/http/response"],
+      "@response/*": ["src/http/response/*"]
     }
   }
 }
