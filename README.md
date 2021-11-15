@@ -1,6 +1,6 @@
 ## Descrição
 
-Nesta etapa, iremos criar os arquivos necessários para recuperar a letra de uma música do serviço [Vagalume](https://www.vagalume.com.br/). Sendo assim iremos criar a camada de aplicação, domínio, infraestrutura e controller.
+Nesta etapa, iremos criar nosso primeiro teste automatizado, ele será responsável por garantir que a camada de aplicação sempre siga uma determinada lógica.
 
 ## Instalação
 
