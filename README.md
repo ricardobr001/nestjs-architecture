@@ -22,7 +22,19 @@ $ npm run start:dev
 
 Agora a aplicação deve estar de pé ouvindo no endereço `http://localhost:3000/`
 
-Para testar, tente chamar essa rota pelo insomnia, postman ou o próprio browser, você deverá ver uma frase `Hello World!`
+Para testar, tente chamar a rota `/v1/song` passando dois query params `artist` como nome de um artista e `title` como nome da música. Por exemplo podemos chamar a rota song passando os seguintes valores `http://localhost:3000/v1/song?artist=blink-182&artist=all the small things`, essa requisição deverá nos voltar um objeto semelhante ao exemplo abaixo:
+
+```json
+{
+  "artist": "All The Small Things",
+  "title": "blink-182",
+  "lyric": [
+    "All the small things",
+    "True care, truth brings"
+    // ... demais partes da letra
+  ]
+}
+```
 
 ## Próximo passo
 
