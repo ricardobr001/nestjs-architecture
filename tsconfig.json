@@ -16,6 +16,12 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@application": ["src/application"],
+      "@application/*": ["src/application/*"],
+      "@controller": ["src/http/controller"],
+      "@controller/*": ["src/http/controller/*"]
+    }
   }
 }
