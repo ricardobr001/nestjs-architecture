@@ -1,6 +1,6 @@
 ## Descrição
 
-Agora iremos começar a separar as responsabilidades de cada parte do projeto em pastas específicas.
+Nesta etapa, iremos criar os arquivos necessários para recuperar a letra de uma música do serviço [Vagalume](https://www.vagalume.com.br/). Sendo assim iremos criar a camada de aplicação, domínio, infraestrutura e controller.
 
 ## Instalação
 
@@ -26,8 +26,8 @@ Para testar, tente chamar essa rota pelo insomnia, postman ou o próprio browser
 
 ## Próximo passo
 
-Iremos adicionar as lógicas necessárias para recuperar a letra de uma música do repositório de músicas [Vagalume](https://www.vagalume.com.br/), para continuar troque a branch do projeto para a `02-creating-the-song-controller` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/02-creating-the-song-controller).
+Iremos adicionar o teste automatizado no nosso `SongService` para continuar troque a branch do projeto para a `03-adding-tests` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/03-adding-tests).
 
 ```bash
-$ git checkout 02-creating-the-song-controller
+$ git checkout 03-adding-tests
 ```
