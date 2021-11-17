@@ -38,8 +38,8 @@ Para testar, tente chamar a rota `/v1/song` passando dois query params `artist` 
 
 ## Próximo passo
 
-Iremos adicionar a documentação na nossa API com o auxílio do swagger, para continuar troque a branch do projeto para a `04-adding-swagger` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/04-adding-swagger).
+Iremos criar um módulo para as lógicas de `Song`, para continuar troque a branch do projeto para a `05-creating-the-module` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/05-creating-the-module).
 
 ```bash
-$ git checkout 04-adding-swagger
+$ git checkout 05-creating-the-module
 ```
