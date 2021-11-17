@@ -1,7 +1,7 @@
 import { AXIOS_TIMEOUT, FIRST_POSITION, VAGALUME_API_URL } from '@core/constants'
-import { SongEntity } from '@domain/entity/SongEntity'
-import { SongRepositoryInterface } from '@domain/repository/SongRepositoryInterface'
 import { Injectable } from '@nestjs/common'
+import { SongEntity } from '@song/domain/entity/SongEntity'
+import { SongRepositoryInterface } from '@song/domain/repository/SongRepositoryInterface'
 import axios, { AxiosInstance } from 'axios'
 import { VagalumeResponse } from './VagalumeResponse'
 

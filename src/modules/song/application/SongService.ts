@@ -1,6 +1,6 @@
-import { SongRepository } from '@infrastructure/SongRepository'
 import { Injectable } from '@nestjs/common'
-import { SongResponse } from '@response/SongResponse'
+import { SongResponse } from '@song/http/response/SongResponse'
+import { SongRepository } from '@song/infrastructure/SongRepository'
 
 @Injectable()
 export class SongService {

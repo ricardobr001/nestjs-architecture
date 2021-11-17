@@ -1,6 +1,6 @@
 ## Descrição
 
-Nesta etapa, iremos adicionar o swagger para ajudar a documentar a nossa API.
+Nesta etapa, iremos criar o nosso módulo, isolando todas as lógicas e regras de Song dentro deste módulo
 
 ## Instalação
 
@@ -34,12 +34,4 @@ Para testar, tente chamar a rota `/v1/song` passando dois query params `artist` 
     // ... demais partes da letra
   ]
 }
-```
-
-## Próximo passo
-
-Iremos criar um módulo para as lógicas de `Song`, para continuar troque a branch do projeto para a `05-creating-the-module` com o comando abaixo, ou você pode navegar para a próxima branch clicando [aqui](https://github.com/ricardobr001/nestjs-architecture/tree/05-creating-the-module).
-
-```bash
-$ git checkout 05-creating-the-module
 ```

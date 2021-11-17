@@ -1,11 +1,7 @@
 import { Module } from '@nestjs/common'
-import { SongController } from '@controller/SongController'
-import { SongService } from '@application/SongService'
-import { SongRepository } from '@infrastructure/SongRepository'
+import { SongModule } from '@song/SongModule'
 
 @Module({
-  imports: [],
-  controllers: [SongController],
-  providers: [SongService, SongRepository]
+  imports: [SongModule]
 })
 export class AppModule {}

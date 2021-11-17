@@ -1,8 +1,8 @@
-import { SongService } from '@application/SongService'
+import { SongService } from 'src/modules/song/application/SongService'
 import { Controller, Get, HttpStatus, Query, Res } from '@nestjs/common'
 import { ApiOkResponse, ApiOperation } from '@nestjs/swagger'
 import { Response } from 'express'
-import { SongResponse } from '@response/SongResponse'
+import { SongResponse } from '@song/http/response/SongResponse'
 
 @Controller('v1/song')
 export class SongController {

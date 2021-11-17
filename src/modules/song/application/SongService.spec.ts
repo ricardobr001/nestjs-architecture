@@ -1,6 +1,6 @@
-import { SongEntity } from '@domain/entity/SongEntity'
-import { SongRepository } from '@infrastructure/SongRepository'
-import { SongResponse } from '@response/SongResponse'
+import { SongEntity } from '@song/domain/entity/SongEntity'
+import { SongResponse } from '@song/http/response/SongResponse'
+import { SongRepository } from '@song/infrastructure/SongRepository'
 import * as faker from 'faker'
 import { SongService } from './SongService'
 
